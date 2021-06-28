@@ -398,7 +398,7 @@ Function Invoke-CheckIn {
 
 Function Start-AutomateDiagnostics {
 	Param(
-        $ltposh = "http://bit.ly/LTPoSh",
+        $ltposh = "https://raw.githubusercontent.com/springpoint/PublicFileHosting/main/Labtech.psm1",
         $automate_server = "",
         [switch]$verbose,
         [switch]$include_lterrors,
